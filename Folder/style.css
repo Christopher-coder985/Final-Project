@@ -1,4 +1,4 @@
-    header{
+        header{
     display:inline-block;
     width:100%;
     background-color:lightcoral;
@@ -20,6 +20,11 @@ nav{
 .container{
     display:flex;
 }
+.container2{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 .content{
     border:2px solid black;
     border-radius:5px;
@@ -33,10 +38,25 @@ margin-left:auto;
 border-radius: 10px;
 margin-left:10px;
 }
+.img2{
+  max-width:40%;
+  height:auto; 
+  float:right;
+  border-radius:10px;
+  margin-left:10px;
+}
 .research{
 border-radius:30px;
 border:2px solid black;
+float:left;
 list-style-type:none;
+}
+.research2{
+border-radius:30px;
+border:2px solid black;
+list-style-type:none;
+flex:1;
+font-size:25px;
 }
 .checklist{
 font-family:sans-serif;
