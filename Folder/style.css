@@ -43,6 +43,14 @@ margin-left:10px;
   border-radius:10px;
   margin-left:10px;
 }
+.img3{
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+    float:none;
+    height:auto;
+    width:100%;
+}
 .research{
 border-radius:30px;
 border:2px solid black;
